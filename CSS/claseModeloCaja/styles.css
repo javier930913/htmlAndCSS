@@ -1,0 +1,18 @@
+/* El selector universal se representa con "*", lo que le apliques a este selector se aplicara a todas las cajas (contenedores) del navegador*/
+*
+{
+    padding: 0;
+    /*Quita el paddign de cualquier contenedor, si el navegador da una cantidad de pixceles por defecto a "x" contenedor esta declaracion los anula*/
+    margin: 0;
+    /*Quita el margin de cualquier contenedor, si el navegador da una cantidad de pixceles por defecto a "x" contenedor esta declaracion los anula*/
+    box-sizing: border-box;
+    /*Hace que el tamaño del contenedor + el padding + el border = al width que le diste al contenedor*/
+    /*Podemos ver un jemplo de esto en el contenedor de main, donde le decimos a main que su hancho va a ser del 98% del espacio disponible en el navegador, que el padding va a tener una altura equivalente al 5% de 500px y el ancho va a tener un 10% de la altura del contenedor, y el borde va a tomar 10px del las dimenciones totales del tamaño del contenedor, todo esto sin afectar o modificar el tamaño de este*/
+}
+
+main{
+    width: 100%;
+    height: 821px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}
